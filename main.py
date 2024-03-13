@@ -16,7 +16,7 @@ import os
 cx_Oracle.init_oracle_client(
     lib_dir=r"C:\Users\georg\OneDrive\Desktop\Projects\PhotoAlbum\cx_Oracle_libs\instantclient_21_12")
 # Connect to Oracle database
-con = cx_Oracle.connect("bd113", "bd113", "bd-dc.cs.tuiasi.ro:1539/orcl")
+con = cx_Oracle.connect("XX1233", "XX1234", "XX-XX.XX.XX.ro:1234/orcl")
 
 
 class State:
